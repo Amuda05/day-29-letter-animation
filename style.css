@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000;
+    animation: bg 5s linear infinite;
+  }
+
+@keyframes bg {
+    0% { background: #000000; }
+    25% { background: #000099; }
+    50% { background: #009999; }
+    75% { background: #999999; }
+    100% { background: #000000; }
+  }
+h1{
+    font-size: 5rem;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 6rem;
+    transition: 1500ms linear;
+}
+
+ .h1{
+    -webkit-animation: animate_bg 5s;
+    animation: animate_bg 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+    0%  {color:#22D2A0;}
+    10% {color:#192824;}
+    20% {color:#192824;}
+    30% {color:#1FC11B;}
+    40% {color:#1FC11B;}
+    50% {color:#FFD913;}
+    60% {color:#FF9C55;}
+    70% {color:#FF5555;}
+    80% {color:#00ffff;}
+    90% {color:#fbff00;}
+    100% {color:#4d1461}
+}
+
+@-webkit-keyframes animate_bg {
+    0%  {color:#22D2A0;}
+    10% {color:#192824;}
+    20% {color:#192824;}
+    30% {color:#1FC11B;}
+    40% {color:#1FC11B;}
+    50% {color:#FFD913;}
+    60% {color:#FF9C55;}
+    70% {color:#FF5555;}
+    80% {color:#00ffff;}
+    90% {color:#fbff00;}
+    100% {color:#4d1461}
+}
